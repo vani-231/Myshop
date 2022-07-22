@@ -1,0 +1,49 @@
+
+
+/* .home{
+    float: left;
+    margin-left:20%;
+} */
+
+.menu{
+    
+    
+    margin-left: 15%;
+}
+
+.products{
+        margin-left:3%
+}
+
+.navbar{
+   
+     margin-bottom: 5%; 
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    
+    
+    
+}
+
+
+.side{
+    color: white;
+}
+.menu{
+    margin-top: 7px;
+    
+}
+
+.home,.signin,.signup,.products{
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+.home,.signup{
+    margin-left: 2%;
+}
+.signin{
+    margin-left: auto;
+}
+

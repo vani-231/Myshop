@@ -1,0 +1,24 @@
+.products-container{
+    
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-gap:5%;
+    width: 70%;
+    margin: auto;
+    
+}
+img{
+    width:40%;
+    height:40%;
+}
+.product-item{
+    text-decoration: none;
+    color: black;
+}
+.product{
+    position: relative;
+}
+.shop{
+    position: relative;
+
+}
