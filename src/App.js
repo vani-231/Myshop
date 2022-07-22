@@ -6,6 +6,8 @@ import Signup from './components/Signup';
 import Signin from './components/Signin';
 import Products from './components/Products';
 import ProductDetail from './components/ProductDetail';
+import Welcome from './components/Welcome';
+import Aboutus from './components/Aboutus';
 
 
 
@@ -19,8 +21,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/signup' element={<Signup/>}></Route>
         <Route path= '/signin' element={<Signin/>}></Route>
-        
-        
+        <Route path='/welcome' element={<Welcome/>}></Route>
+        <Route path='/aboutus' element={<Aboutus/>}></Route>
         <Route path='/products' element={<Products/>}></Route>
         <Route path='/products/:prod_id' element={<ProductDetail/>}></Route>
 
